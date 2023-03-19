@@ -46,7 +46,7 @@ the default bootstrap theme or an unstyled HTML site.
   2. [ ] Header
   4. [ ] Home
   5. [ ] Project Gallery
-  6. [ ] Project
+  6. [ ] Projectc
   7. [ ] Contact
 
 ### Required Component Content
@@ -54,12 +54,12 @@ the default bootstrap theme or an unstyled HTML site.
   * [ ] Must be your top level component and render all necessary children components
 * [ ] Header:
    * [ ] Must be rendered across the entire site
-   * [ ] Must Contain a Navbar
+   * [ ] Must Contain a Navbar-use react router
 * [ ] Project Gallery:
-  * [ ] Must render dynamically 6 instances of the Project component
-    * [ ] Be sure to store your project data in a JSON file and import it into your project
+  * [ ] Must render dynamically 6 instances of the Project component - use array.map to iterate through the json file
+    * [ ] Be sure to store your project data in a JSON file and import it into your project - build out the json file with all your projects
 * [ ] Project:
-   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
+   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project. - we already did this but basically you're going to have one single project component which will only display ONE project
    * [ ] Must utilize router props to properly render the right project based on user selection
    * [ ] Must render the following info:
      * [ ] Project title
